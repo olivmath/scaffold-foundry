@@ -1,5 +1,28 @@
 # 🏗 Scaffold-ETH 2
 
+# ⚒️⚒️⚒️ How to use Foundry? ⚒️⚒️⚒️
+
+
+### 🤷‍♀️ What can I do?
+
+- [x] run test with `forge`
+- [x] run scripts with `forge`
+- [x] update the frontend when deploying with `deploy.sh`.
+
+
+### 🛠️ How to works?
+
+You need open `packages/foundry` dir and use **deploy.sh**
+
+Main files to use is:
+
+```
+- packages/foundry/deploy.sh                # call other script just
+- packages/foundry/script/Deploy.s.sol      # deploy your contracts
+- packages/foundry/deploy.py                # move your ABIs to packages/nextjs/generated/deployedContracts.ts
+```
+
+
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
 
 ⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, and Typescript.
